@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="593.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spaceinvaders.TelaVencedorController">
+   <children>
+      <ImageView fx:id="iFundo" fitHeight="407.0" fitWidth="600.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../menuBackground.gif" />
+         </image></ImageView>
+      <Button fx:id="bProxFase" layoutX="141.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#clickNovoJogo" onMouseExited="#hoverExit1" onMouseMoved="#hover1" style="-fx-background-color: transparent; -fx-font-size: 16;" stylesheets="@../menustyle.css" text="Jogar proximo nivel" textFill="WHITE" />
+      <Button fx:id="bSair" layoutX="516.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#clickSair" onMouseExited="#hoverExit2" onMouseMoved="#hover2" style="-fx-background-color: transparent;" stylesheets="@../menustyle.css" text="Sair" textFill="WHITE" />
+      <Text fx:id="tParabens" fill="WHITE" layoutX="146.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parabens! Voce venceu este nivel" textAlignment="CENTER" wrappingWidth="315.13671875" />
+      <Text fx:id="tPergunta" fill="WHITE" layoutX="146.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pronto para o proximo?" textAlignment="CENTER" wrappingWidth="315.13671875" />
+   </children>
+</AnchorPane>

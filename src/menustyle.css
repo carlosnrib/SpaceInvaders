@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+Button{
+    -fx-font-family: 'Press Start 2P', cursive;
+}
+
+Button:hover {
+    -fx-font-color: YELLOW; 
+}
